@@ -31,19 +31,6 @@ sudo eget jelloeater/busy-api --to /usr/local/bin --asset=tar.gz
 go install github.com/Jelloeater/busy-api@latest
 ```
 
-## Usage
-
-### Settings
-
-You can use ENV_VARs to override settings
-
-```shell
-export STAMPY_TZ='EST'
-export STAMPY_FORMAT='01/02/2006 15:04'
-export STAMPY_NTP='pool.ntp.org'
-```
-
-
 ## Build
 
 Run
